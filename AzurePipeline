@@ -30,7 +30,7 @@ steps:
 - task: AzureCLI@2
   displayName: 'Upload file to Azure Blob Storage'
   inputs:
-    azureSubscription: 'a2c00afd-2b96-4016-9f25-104083500e21'
+    azureSubscription: 'ExternalProjects'
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
     inlineScript: |
